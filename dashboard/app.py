@@ -2,9 +2,16 @@ import streamlit as st
 import requests
 import pandas as pd
 import plotly.express as px
+import os
 
 # Config
-API_URL = "http://localhost:8000/recommend"
+# Check Streamlit secrets first, then environment variables, then fallback to localhost
+if "API_URL" in st.secrets:
+    API_URL = st.secrets["API_URL"]
+elif os.getenv("API_URL"):
+    API_URL = os.getenv("API_URL")
+else:
+    API_URL = "http://localhost:8000/recommend"
 
 st.set_page_config(page_title="Hybrid RecSys Admin", layout="wide")
 
