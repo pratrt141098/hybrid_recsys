@@ -1,0 +1,1001 @@
+user_id,age,gender,persona
+1,58,M,Health Nut
+2,65,F,Budget Shopper
+3,32,M,Health Nut
+4,61,NB,Impulse Buyer
+5,23,NB,Gourmet
+6,20,M,Health Nut
+7,31,M,Impulse Buyer
+8,56,M,Impulse Buyer
+9,30,NB,Impulse Buyer
+10,44,M,Gourmet
+11,55,F,Health Nut
+12,66,M,Gourmet
+13,39,F,Budget Shopper
+14,31,F,Health Nut
+15,23,F,Health Nut
+16,40,F,Impulse Buyer
+17,34,M,Gourmet
+18,52,M,Gourmet
+19,23,NB,Parent
+20,71,NB,Impulse Buyer
+21,74,F,Impulse Buyer
+22,30,NB,Health Nut
+23,20,NB,Budget Shopper
+24,67,F,Health Nut
+25,72,M,Health Nut
+26,42,F,Gourmet
+27,58,F,Budget Shopper
+28,41,F,Budget Shopper
+29,60,F,Health Nut
+30,56,NB,Budget Shopper
+31,52,NB,Budget Shopper
+32,28,F,Gourmet
+33,35,NB,Impulse Buyer
+34,32,NB,Parent
+35,71,M,Budget Shopper
+36,70,M,Parent
+37,43,F,Health Nut
+38,31,NB,Parent
+39,31,NB,Gourmet
+40,43,NB,Gourmet
+41,27,F,Budget Shopper
+42,33,NB,Impulse Buyer
+43,52,F,Impulse Buyer
+44,45,NB,Gourmet
+45,41,M,Budget Shopper
+46,50,F,Health Nut
+47,66,M,Health Nut
+48,27,NB,Budget Shopper
+49,68,NB,Gourmet
+50,56,M,Gourmet
+51,42,NB,Gourmet
+52,51,F,Impulse Buyer
+53,73,M,Health Nut
+54,61,NB,Parent
+55,67,NB,Parent
+56,25,F,Gourmet
+57,28,F,Health Nut
+58,64,NB,Parent
+59,50,M,Impulse Buyer
+60,24,NB,Parent
+61,71,NB,Impulse Buyer
+62,56,M,Budget Shopper
+63,41,M,Impulse Buyer
+64,67,NB,Health Nut
+65,56,F,Gourmet
+66,19,M,Parent
+67,74,F,Budget Shopper
+68,21,M,Impulse Buyer
+69,23,M,Gourmet
+70,70,M,Impulse Buyer
+71,67,M,Budget Shopper
+72,60,F,Impulse Buyer
+73,28,F,Impulse Buyer
+74,73,NB,Gourmet
+75,31,NB,Budget Shopper
+76,63,F,Gourmet
+77,60,NB,Parent
+78,46,NB,Gourmet
+79,25,M,Budget Shopper
+80,22,F,Health Nut
+81,55,NB,Budget Shopper
+82,55,M,Health Nut
+83,22,NB,Health Nut
+84,32,M,Health Nut
+85,73,F,Health Nut
+86,50,M,Parent
+87,60,F,Budget Shopper
+88,52,M,Impulse Buyer
+89,54,F,Budget Shopper
+90,68,F,Gourmet
+91,30,M,Health Nut
+92,60,F,Parent
+93,45,F,Gourmet
+94,73,NB,Health Nut
+95,61,NB,Health Nut
+96,21,F,Parent
+97,69,M,Budget Shopper
+98,30,M,Impulse Buyer
+99,46,M,Gourmet
+100,29,F,Gourmet
+101,33,M,Gourmet
+102,69,NB,Health Nut
+103,21,NB,Impulse Buyer
+104,71,M,Health Nut
+105,66,M,Budget Shopper
+106,44,F,Gourmet
+107,31,F,Health Nut
+108,28,F,Health Nut
+109,42,F,Gourmet
+110,36,F,Impulse Buyer
+111,60,NB,Gourmet
+112,27,M,Parent
+113,31,M,Impulse Buyer
+114,65,NB,Health Nut
+115,65,F,Health Nut
+116,21,NB,Gourmet
+117,50,NB,Budget Shopper
+118,21,NB,Health Nut
+119,72,M,Health Nut
+120,56,M,Budget Shopper
+121,43,M,Impulse Buyer
+122,33,NB,Impulse Buyer
+123,20,NB,Health Nut
+124,44,NB,Impulse Buyer
+125,54,NB,Parent
+126,34,M,Parent
+127,33,F,Gourmet
+128,26,NB,Parent
+129,47,F,Health Nut
+130,18,F,Impulse Buyer
+131,54,M,Health Nut
+132,52,M,Impulse Buyer
+133,34,M,Parent
+134,74,M,Budget Shopper
+135,41,F,Budget Shopper
+136,46,NB,Parent
+137,57,NB,Impulse Buyer
+138,18,NB,Impulse Buyer
+139,37,NB,Health Nut
+140,74,M,Parent
+141,25,M,Impulse Buyer
+142,27,F,Parent
+143,56,M,Parent
+144,31,NB,Parent
+145,50,F,Parent
+146,75,M,Health Nut
+147,58,F,Parent
+148,20,M,Parent
+149,67,M,Parent
+150,28,NB,Gourmet
+151,53,NB,Gourmet
+152,53,M,Health Nut
+153,22,NB,Budget Shopper
+154,52,M,Parent
+155,55,NB,Budget Shopper
+156,45,M,Health Nut
+157,37,F,Health Nut
+158,75,F,Budget Shopper
+159,61,M,Health Nut
+160,40,NB,Gourmet
+161,57,NB,Budget Shopper
+162,33,M,Budget Shopper
+163,74,F,Health Nut
+164,29,NB,Parent
+165,68,F,Budget Shopper
+166,35,M,Health Nut
+167,42,M,Gourmet
+168,32,M,Gourmet
+169,40,F,Budget Shopper
+170,32,M,Budget Shopper
+171,43,F,Parent
+172,73,M,Parent
+173,40,NB,Impulse Buyer
+174,43,NB,Impulse Buyer
+175,39,M,Health Nut
+176,74,F,Budget Shopper
+177,55,F,Health Nut
+178,24,NB,Gourmet
+179,40,NB,Parent
+180,45,NB,Impulse Buyer
+181,25,F,Impulse Buyer
+182,30,F,Health Nut
+183,63,F,Health Nut
+184,51,NB,Budget Shopper
+185,41,F,Health Nut
+186,60,F,Impulse Buyer
+187,38,NB,Health Nut
+188,64,F,Impulse Buyer
+189,37,NB,Gourmet
+190,38,F,Parent
+191,53,M,Budget Shopper
+192,44,NB,Gourmet
+193,61,NB,Budget Shopper
+194,57,NB,Parent
+195,43,NB,Health Nut
+196,37,F,Budget Shopper
+197,45,NB,Impulse Buyer
+198,59,F,Gourmet
+199,46,F,Budget Shopper
+200,50,F,Budget Shopper
+201,60,M,Parent
+202,50,NB,Impulse Buyer
+203,39,M,Budget Shopper
+204,61,F,Budget Shopper
+205,69,M,Budget Shopper
+206,19,M,Budget Shopper
+207,48,NB,Health Nut
+208,47,F,Impulse Buyer
+209,30,NB,Gourmet
+210,49,F,Budget Shopper
+211,27,NB,Health Nut
+212,75,M,Gourmet
+213,32,M,Impulse Buyer
+214,47,M,Impulse Buyer
+215,33,M,Gourmet
+216,26,F,Impulse Buyer
+217,53,NB,Parent
+218,66,F,Impulse Buyer
+219,70,NB,Impulse Buyer
+220,45,NB,Gourmet
+221,75,M,Gourmet
+222,46,F,Budget Shopper
+223,71,NB,Parent
+224,67,NB,Gourmet
+225,58,M,Parent
+226,46,M,Parent
+227,33,F,Parent
+228,38,NB,Health Nut
+229,26,M,Budget Shopper
+230,42,NB,Budget Shopper
+231,63,M,Health Nut
+232,44,F,Parent
+233,52,F,Gourmet
+234,21,M,Gourmet
+235,42,NB,Health Nut
+236,72,NB,Gourmet
+237,48,M,Parent
+238,37,F,Gourmet
+239,52,NB,Impulse Buyer
+240,69,NB,Budget Shopper
+241,49,M,Parent
+242,45,F,Health Nut
+243,42,F,Gourmet
+244,64,M,Gourmet
+245,26,NB,Impulse Buyer
+246,19,F,Impulse Buyer
+247,54,NB,Health Nut
+248,23,NB,Gourmet
+249,26,F,Budget Shopper
+250,21,F,Gourmet
+251,38,M,Gourmet
+252,38,F,Gourmet
+253,35,F,Parent
+254,71,M,Gourmet
+255,19,NB,Impulse Buyer
+256,21,F,Budget Shopper
+257,59,M,Health Nut
+258,66,M,Budget Shopper
+259,30,M,Impulse Buyer
+260,27,M,Budget Shopper
+261,48,NB,Health Nut
+262,54,M,Gourmet
+263,62,F,Parent
+264,28,NB,Impulse Buyer
+265,65,NB,Health Nut
+266,67,M,Parent
+267,24,NB,Health Nut
+268,37,NB,Gourmet
+269,43,NB,Budget Shopper
+270,22,NB,Budget Shopper
+271,24,NB,Parent
+272,72,NB,Impulse Buyer
+273,69,M,Impulse Buyer
+274,68,M,Parent
+275,52,F,Parent
+276,22,NB,Parent
+277,18,F,Gourmet
+278,24,F,Parent
+279,58,F,Budget Shopper
+280,45,M,Impulse Buyer
+281,59,F,Impulse Buyer
+282,69,NB,Gourmet
+283,47,F,Impulse Buyer
+284,35,F,Budget Shopper
+285,71,M,Parent
+286,74,F,Budget Shopper
+287,66,F,Impulse Buyer
+288,57,NB,Gourmet
+289,39,M,Gourmet
+290,72,F,Budget Shopper
+291,49,M,Parent
+292,69,F,Parent
+293,35,NB,Parent
+294,53,M,Impulse Buyer
+295,30,M,Budget Shopper
+296,64,F,Gourmet
+297,53,M,Gourmet
+298,59,NB,Gourmet
+299,46,M,Health Nut
+300,36,M,Gourmet
+301,62,M,Parent
+302,60,NB,Parent
+303,48,NB,Impulse Buyer
+304,40,F,Impulse Buyer
+305,39,F,Gourmet
+306,35,F,Parent
+307,32,M,Budget Shopper
+308,38,M,Impulse Buyer
+309,66,NB,Budget Shopper
+310,30,M,Gourmet
+311,35,NB,Impulse Buyer
+312,66,NB,Impulse Buyer
+313,36,M,Budget Shopper
+314,36,M,Parent
+315,29,F,Health Nut
+316,63,NB,Budget Shopper
+317,35,M,Health Nut
+318,53,F,Budget Shopper
+319,58,F,Health Nut
+320,73,M,Impulse Buyer
+321,36,F,Gourmet
+322,46,F,Budget Shopper
+323,21,F,Gourmet
+324,25,M,Gourmet
+325,49,M,Impulse Buyer
+326,58,NB,Health Nut
+327,27,M,Impulse Buyer
+328,37,M,Budget Shopper
+329,25,NB,Gourmet
+330,56,NB,Impulse Buyer
+331,32,NB,Gourmet
+332,46,F,Parent
+333,73,NB,Gourmet
+334,37,NB,Impulse Buyer
+335,21,NB,Health Nut
+336,66,M,Budget Shopper
+337,34,NB,Health Nut
+338,28,M,Budget Shopper
+339,53,M,Budget Shopper
+340,18,F,Gourmet
+341,62,NB,Gourmet
+342,36,M,Budget Shopper
+343,36,NB,Parent
+344,62,F,Health Nut
+345,61,M,Parent
+346,68,NB,Impulse Buyer
+347,60,M,Gourmet
+348,25,NB,Budget Shopper
+349,59,M,Parent
+350,70,M,Health Nut
+351,21,M,Parent
+352,56,NB,Impulse Buyer
+353,36,F,Health Nut
+354,47,NB,Parent
+355,62,F,Parent
+356,50,NB,Gourmet
+357,46,M,Impulse Buyer
+358,20,F,Parent
+359,56,F,Health Nut
+360,23,M,Impulse Buyer
+361,55,M,Parent
+362,54,M,Budget Shopper
+363,48,NB,Gourmet
+364,35,M,Impulse Buyer
+365,45,NB,Gourmet
+366,23,F,Parent
+367,44,F,Parent
+368,60,M,Budget Shopper
+369,39,F,Gourmet
+370,36,NB,Gourmet
+371,70,NB,Health Nut
+372,47,M,Parent
+373,34,F,Health Nut
+374,67,F,Impulse Buyer
+375,70,M,Impulse Buyer
+376,47,F,Health Nut
+377,30,NB,Parent
+378,57,F,Gourmet
+379,66,M,Budget Shopper
+380,35,NB,Budget Shopper
+381,36,F,Gourmet
+382,25,M,Impulse Buyer
+383,69,M,Budget Shopper
+384,37,NB,Health Nut
+385,53,F,Health Nut
+386,32,M,Gourmet
+387,25,NB,Budget Shopper
+388,49,NB,Parent
+389,50,NB,Parent
+390,44,F,Gourmet
+391,33,F,Impulse Buyer
+392,27,F,Budget Shopper
+393,56,NB,Budget Shopper
+394,73,M,Parent
+395,67,F,Parent
+396,68,NB,Parent
+397,70,M,Parent
+398,64,F,Impulse Buyer
+399,55,NB,Gourmet
+400,73,M,Gourmet
+401,52,F,Parent
+402,39,NB,Impulse Buyer
+403,42,F,Parent
+404,73,M,Budget Shopper
+405,54,F,Budget Shopper
+406,72,F,Health Nut
+407,38,NB,Gourmet
+408,63,F,Gourmet
+409,60,NB,Budget Shopper
+410,49,M,Budget Shopper
+411,50,NB,Parent
+412,73,M,Gourmet
+413,24,NB,Gourmet
+414,18,NB,Budget Shopper
+415,44,NB,Budget Shopper
+416,22,F,Parent
+417,39,NB,Gourmet
+418,59,M,Parent
+419,72,NB,Impulse Buyer
+420,42,F,Gourmet
+421,73,NB,Health Nut
+422,57,M,Budget Shopper
+423,58,NB,Parent
+424,32,NB,Health Nut
+425,45,M,Health Nut
+426,46,M,Parent
+427,75,M,Health Nut
+428,38,M,Parent
+429,40,F,Gourmet
+430,27,M,Impulse Buyer
+431,44,NB,Budget Shopper
+432,28,M,Health Nut
+433,57,F,Impulse Buyer
+434,61,M,Gourmet
+435,55,M,Budget Shopper
+436,47,NB,Parent
+437,47,F,Health Nut
+438,75,F,Parent
+439,61,NB,Budget Shopper
+440,22,F,Parent
+441,55,F,Gourmet
+442,62,F,Gourmet
+443,72,F,Budget Shopper
+444,42,F,Health Nut
+445,33,F,Impulse Buyer
+446,40,NB,Parent
+447,62,F,Health Nut
+448,71,NB,Gourmet
+449,35,M,Impulse Buyer
+450,73,NB,Health Nut
+451,56,NB,Gourmet
+452,71,F,Budget Shopper
+453,56,F,Budget Shopper
+454,58,M,Impulse Buyer
+455,34,NB,Budget Shopper
+456,58,M,Health Nut
+457,37,F,Health Nut
+458,55,F,Budget Shopper
+459,23,F,Parent
+460,65,F,Budget Shopper
+461,30,M,Impulse Buyer
+462,74,F,Impulse Buyer
+463,50,F,Budget Shopper
+464,34,F,Parent
+465,65,F,Health Nut
+466,47,M,Budget Shopper
+467,66,M,Gourmet
+468,72,NB,Parent
+469,23,F,Health Nut
+470,34,NB,Health Nut
+471,47,F,Parent
+472,55,F,Parent
+473,24,NB,Budget Shopper
+474,48,M,Impulse Buyer
+475,74,NB,Parent
+476,57,M,Health Nut
+477,58,F,Parent
+478,59,F,Health Nut
+479,26,M,Health Nut
+480,37,F,Health Nut
+481,24,M,Impulse Buyer
+482,26,F,Gourmet
+483,41,NB,Impulse Buyer
+484,44,NB,Budget Shopper
+485,74,F,Health Nut
+486,71,F,Impulse Buyer
+487,44,F,Health Nut
+488,62,F,Budget Shopper
+489,46,F,Budget Shopper
+490,72,F,Health Nut
+491,61,F,Impulse Buyer
+492,75,NB,Parent
+493,21,F,Parent
+494,30,M,Gourmet
+495,23,NB,Budget Shopper
+496,59,NB,Impulse Buyer
+497,19,M,Parent
+498,33,M,Impulse Buyer
+499,31,M,Impulse Buyer
+500,31,NB,Budget Shopper
+501,70,M,Parent
+502,67,M,Impulse Buyer
+503,18,F,Budget Shopper
+504,26,NB,Parent
+505,69,M,Health Nut
+506,60,M,Budget Shopper
+507,18,F,Budget Shopper
+508,55,F,Health Nut
+509,29,F,Health Nut
+510,26,NB,Gourmet
+511,51,M,Health Nut
+512,48,F,Parent
+513,50,NB,Health Nut
+514,46,NB,Budget Shopper
+515,57,M,Impulse Buyer
+516,37,F,Health Nut
+517,21,F,Gourmet
+518,45,NB,Health Nut
+519,49,NB,Gourmet
+520,22,M,Parent
+521,56,M,Health Nut
+522,26,F,Impulse Buyer
+523,58,NB,Impulse Buyer
+524,63,F,Gourmet
+525,56,NB,Parent
+526,47,NB,Impulse Buyer
+527,45,M,Health Nut
+528,72,NB,Impulse Buyer
+529,64,M,Gourmet
+530,46,M,Gourmet
+531,39,F,Gourmet
+532,44,NB,Health Nut
+533,38,F,Parent
+534,60,F,Parent
+535,27,NB,Gourmet
+536,22,M,Health Nut
+537,23,F,Health Nut
+538,65,NB,Parent
+539,69,M,Impulse Buyer
+540,21,NB,Impulse Buyer
+541,53,F,Health Nut
+542,44,F,Gourmet
+543,73,NB,Health Nut
+544,36,NB,Parent
+545,40,M,Impulse Buyer
+546,50,M,Budget Shopper
+547,60,F,Budget Shopper
+548,72,M,Parent
+549,72,NB,Parent
+550,25,F,Impulse Buyer
+551,32,F,Impulse Buyer
+552,67,NB,Impulse Buyer
+553,61,NB,Impulse Buyer
+554,19,NB,Parent
+555,19,M,Parent
+556,62,F,Parent
+557,40,M,Budget Shopper
+558,73,M,Impulse Buyer
+559,60,F,Health Nut
+560,27,NB,Health Nut
+561,23,NB,Impulse Buyer
+562,31,F,Gourmet
+563,47,F,Budget Shopper
+564,41,F,Parent
+565,67,NB,Impulse Buyer
+566,23,M,Budget Shopper
+567,28,NB,Health Nut
+568,61,M,Parent
+569,46,NB,Gourmet
+570,49,NB,Gourmet
+571,44,F,Budget Shopper
+572,66,NB,Health Nut
+573,40,F,Health Nut
+574,36,NB,Impulse Buyer
+575,49,NB,Parent
+576,20,M,Gourmet
+577,56,M,Health Nut
+578,31,F,Budget Shopper
+579,67,M,Parent
+580,36,F,Health Nut
+581,18,F,Gourmet
+582,29,M,Gourmet
+583,52,NB,Budget Shopper
+584,50,NB,Parent
+585,22,F,Health Nut
+586,45,M,Gourmet
+587,22,F,Impulse Buyer
+588,45,NB,Gourmet
+589,63,NB,Gourmet
+590,36,M,Gourmet
+591,19,F,Budget Shopper
+592,69,NB,Gourmet
+593,71,NB,Parent
+594,23,F,Health Nut
+595,33,F,Impulse Buyer
+596,43,NB,Health Nut
+597,43,F,Parent
+598,32,F,Budget Shopper
+599,22,NB,Health Nut
+600,51,NB,Budget Shopper
+601,75,F,Parent
+602,64,NB,Budget Shopper
+603,33,M,Budget Shopper
+604,34,M,Budget Shopper
+605,56,M,Health Nut
+606,29,NB,Gourmet
+607,47,NB,Impulse Buyer
+608,46,NB,Impulse Buyer
+609,59,NB,Impulse Buyer
+610,38,NB,Parent
+611,27,F,Health Nut
+612,48,F,Parent
+613,68,F,Impulse Buyer
+614,21,F,Impulse Buyer
+615,22,F,Gourmet
+616,46,M,Health Nut
+617,41,F,Health Nut
+618,59,M,Impulse Buyer
+619,56,NB,Gourmet
+620,47,NB,Impulse Buyer
+621,68,NB,Health Nut
+622,46,NB,Budget Shopper
+623,38,NB,Gourmet
+624,50,M,Health Nut
+625,46,M,Parent
+626,63,M,Impulse Buyer
+627,59,M,Health Nut
+628,33,NB,Gourmet
+629,46,NB,Impulse Buyer
+630,57,M,Parent
+631,41,F,Gourmet
+632,44,F,Impulse Buyer
+633,21,NB,Parent
+634,22,F,Health Nut
+635,53,NB,Gourmet
+636,36,F,Impulse Buyer
+637,73,M,Parent
+638,23,NB,Budget Shopper
+639,40,F,Gourmet
+640,26,NB,Health Nut
+641,37,NB,Gourmet
+642,59,F,Budget Shopper
+643,60,NB,Impulse Buyer
+644,23,NB,Gourmet
+645,50,F,Health Nut
+646,41,F,Budget Shopper
+647,31,F,Gourmet
+648,30,M,Budget Shopper
+649,27,M,Parent
+650,72,M,Impulse Buyer
+651,67,NB,Impulse Buyer
+652,20,NB,Parent
+653,74,NB,Budget Shopper
+654,56,F,Budget Shopper
+655,28,M,Impulse Buyer
+656,69,M,Gourmet
+657,20,F,Parent
+658,61,NB,Budget Shopper
+659,46,NB,Parent
+660,66,NB,Gourmet
+661,32,NB,Budget Shopper
+662,37,F,Budget Shopper
+663,41,NB,Impulse Buyer
+664,46,F,Parent
+665,67,F,Impulse Buyer
+666,51,F,Budget Shopper
+667,70,M,Impulse Buyer
+668,26,F,Health Nut
+669,59,F,Parent
+670,53,M,Impulse Buyer
+671,72,M,Parent
+672,23,M,Parent
+673,46,NB,Budget Shopper
+674,71,F,Health Nut
+675,32,F,Parent
+676,19,F,Health Nut
+677,43,NB,Parent
+678,33,F,Health Nut
+679,41,M,Health Nut
+680,38,M,Parent
+681,68,M,Budget Shopper
+682,20,F,Gourmet
+683,62,M,Gourmet
+684,46,NB,Health Nut
+685,75,M,Health Nut
+686,34,M,Budget Shopper
+687,53,NB,Impulse Buyer
+688,51,F,Health Nut
+689,67,F,Budget Shopper
+690,37,M,Health Nut
+691,33,F,Impulse Buyer
+692,47,M,Health Nut
+693,71,F,Impulse Buyer
+694,52,M,Impulse Buyer
+695,54,M,Budget Shopper
+696,36,F,Health Nut
+697,57,F,Budget Shopper
+698,54,F,Budget Shopper
+699,60,NB,Health Nut
+700,51,F,Health Nut
+701,51,NB,Impulse Buyer
+702,68,NB,Impulse Buyer
+703,19,F,Gourmet
+704,20,NB,Gourmet
+705,41,F,Health Nut
+706,40,M,Parent
+707,33,NB,Health Nut
+708,67,NB,Parent
+709,26,M,Parent
+710,52,F,Budget Shopper
+711,71,NB,Gourmet
+712,62,F,Budget Shopper
+713,69,M,Health Nut
+714,63,F,Health Nut
+715,36,M,Health Nut
+716,68,M,Health Nut
+717,38,F,Impulse Buyer
+718,43,NB,Gourmet
+719,34,M,Budget Shopper
+720,36,F,Health Nut
+721,73,NB,Parent
+722,35,M,Parent
+723,45,F,Gourmet
+724,75,F,Parent
+725,29,F,Gourmet
+726,41,NB,Parent
+727,69,M,Gourmet
+728,23,F,Impulse Buyer
+729,70,M,Impulse Buyer
+730,36,F,Health Nut
+731,23,F,Parent
+732,37,F,Impulse Buyer
+733,63,F,Budget Shopper
+734,62,F,Parent
+735,46,M,Parent
+736,57,F,Parent
+737,58,M,Health Nut
+738,60,NB,Gourmet
+739,41,NB,Budget Shopper
+740,19,M,Impulse Buyer
+741,61,F,Health Nut
+742,26,M,Budget Shopper
+743,67,NB,Parent
+744,41,F,Impulse Buyer
+745,20,NB,Budget Shopper
+746,61,F,Parent
+747,41,F,Health Nut
+748,54,M,Impulse Buyer
+749,41,F,Parent
+750,59,F,Budget Shopper
+751,25,M,Budget Shopper
+752,49,NB,Gourmet
+753,53,M,Parent
+754,67,F,Gourmet
+755,31,NB,Parent
+756,62,F,Budget Shopper
+757,25,M,Health Nut
+758,46,M,Gourmet
+759,23,NB,Parent
+760,60,F,Health Nut
+761,53,NB,Parent
+762,75,F,Budget Shopper
+763,63,NB,Budget Shopper
+764,68,F,Impulse Buyer
+765,32,M,Budget Shopper
+766,68,M,Budget Shopper
+767,68,F,Health Nut
+768,41,NB,Impulse Buyer
+769,41,F,Impulse Buyer
+770,26,NB,Health Nut
+771,22,F,Gourmet
+772,63,NB,Gourmet
+773,51,F,Gourmet
+774,70,NB,Health Nut
+775,26,F,Health Nut
+776,46,F,Impulse Buyer
+777,40,M,Impulse Buyer
+778,58,NB,Budget Shopper
+779,67,M,Gourmet
+780,50,M,Health Nut
+781,51,M,Parent
+782,28,M,Parent
+783,63,M,Parent
+784,51,F,Health Nut
+785,34,M,Impulse Buyer
+786,35,M,Parent
+787,57,NB,Health Nut
+788,50,NB,Budget Shopper
+789,55,NB,Budget Shopper
+790,28,NB,Impulse Buyer
+791,64,NB,Parent
+792,71,NB,Health Nut
+793,70,M,Health Nut
+794,20,NB,Impulse Buyer
+795,34,NB,Budget Shopper
+796,67,NB,Gourmet
+797,57,NB,Health Nut
+798,49,NB,Impulse Buyer
+799,36,NB,Parent
+800,48,M,Gourmet
+801,37,F,Health Nut
+802,62,M,Budget Shopper
+803,46,F,Gourmet
+804,47,M,Parent
+805,56,M,Parent
+806,73,NB,Parent
+807,64,F,Gourmet
+808,26,F,Impulse Buyer
+809,53,M,Parent
+810,33,F,Health Nut
+811,35,F,Budget Shopper
+812,27,M,Health Nut
+813,36,F,Impulse Buyer
+814,44,M,Budget Shopper
+815,70,F,Impulse Buyer
+816,64,F,Budget Shopper
+817,66,M,Gourmet
+818,50,F,Gourmet
+819,74,F,Gourmet
+820,19,M,Gourmet
+821,50,F,Budget Shopper
+822,31,NB,Parent
+823,21,M,Parent
+824,49,NB,Gourmet
+825,36,NB,Health Nut
+826,72,M,Gourmet
+827,26,F,Parent
+828,66,F,Parent
+829,20,F,Health Nut
+830,54,NB,Budget Shopper
+831,41,NB,Parent
+832,22,F,Impulse Buyer
+833,46,NB,Parent
+834,70,NB,Impulse Buyer
+835,25,M,Health Nut
+836,43,F,Parent
+837,53,F,Budget Shopper
+838,30,NB,Impulse Buyer
+839,43,NB,Health Nut
+840,20,M,Budget Shopper
+841,63,F,Gourmet
+842,51,F,Budget Shopper
+843,56,NB,Budget Shopper
+844,38,NB,Parent
+845,28,F,Impulse Buyer
+846,65,F,Impulse Buyer
+847,39,NB,Impulse Buyer
+848,52,F,Impulse Buyer
+849,37,F,Health Nut
+850,41,F,Health Nut
+851,44,NB,Parent
+852,68,NB,Health Nut
+853,56,F,Parent
+854,59,NB,Impulse Buyer
+855,32,NB,Health Nut
+856,55,F,Budget Shopper
+857,51,NB,Impulse Buyer
+858,67,F,Budget Shopper
+859,70,NB,Budget Shopper
+860,20,NB,Health Nut
+861,30,M,Gourmet
+862,38,F,Budget Shopper
+863,44,NB,Budget Shopper
+864,44,NB,Impulse Buyer
+865,48,NB,Health Nut
+866,63,M,Impulse Buyer
+867,31,NB,Parent
+868,60,F,Impulse Buyer
+869,42,F,Budget Shopper
+870,47,NB,Parent
+871,52,F,Parent
+872,57,F,Budget Shopper
+873,33,F,Impulse Buyer
+874,37,M,Parent
+875,67,F,Budget Shopper
+876,62,NB,Gourmet
+877,38,F,Parent
+878,53,NB,Parent
+879,36,M,Impulse Buyer
+880,61,NB,Gourmet
+881,75,F,Parent
+882,67,M,Parent
+883,20,F,Health Nut
+884,40,F,Parent
+885,65,F,Budget Shopper
+886,30,NB,Parent
+887,53,NB,Parent
+888,26,M,Impulse Buyer
+889,65,NB,Budget Shopper
+890,33,M,Impulse Buyer
+891,32,NB,Budget Shopper
+892,21,M,Gourmet
+893,39,NB,Gourmet
+894,24,NB,Budget Shopper
+895,18,NB,Budget Shopper
+896,44,NB,Gourmet
+897,48,NB,Budget Shopper
+898,66,F,Parent
+899,36,NB,Health Nut
+900,67,M,Impulse Buyer
+901,32,NB,Health Nut
+902,29,F,Budget Shopper
+903,20,F,Gourmet
+904,29,NB,Parent
+905,74,M,Health Nut
+906,37,NB,Impulse Buyer
+907,24,F,Parent
+908,47,NB,Impulse Buyer
+909,51,F,Budget Shopper
+910,72,NB,Gourmet
+911,35,M,Health Nut
+912,39,M,Gourmet
+913,59,F,Budget Shopper
+914,18,NB,Parent
+915,68,F,Impulse Buyer
+916,61,M,Budget Shopper
+917,57,NB,Gourmet
+918,70,F,Impulse Buyer
+919,38,M,Gourmet
+920,60,M,Budget Shopper
+921,26,F,Parent
+922,33,M,Parent
+923,42,M,Gourmet
+924,66,F,Parent
+925,37,NB,Impulse Buyer
+926,18,F,Parent
+927,62,M,Health Nut
+928,60,M,Gourmet
+929,37,M,Gourmet
+930,61,NB,Parent
+931,62,M,Parent
+932,41,NB,Budget Shopper
+933,32,M,Gourmet
+934,27,F,Impulse Buyer
+935,41,F,Impulse Buyer
+936,48,NB,Budget Shopper
+937,66,M,Impulse Buyer
+938,73,M,Impulse Buyer
+939,46,NB,Parent
+940,22,NB,Health Nut
+941,21,NB,Impulse Buyer
+942,30,NB,Impulse Buyer
+943,27,M,Parent
+944,72,NB,Gourmet
+945,25,NB,Budget Shopper
+946,63,NB,Gourmet
+947,23,NB,Gourmet
+948,69,M,Gourmet
+949,26,NB,Gourmet
+950,47,NB,Health Nut
+951,53,F,Parent
+952,64,M,Gourmet
+953,34,M,Budget Shopper
+954,55,M,Health Nut
+955,45,F,Health Nut
+956,52,M,Health Nut
+957,48,M,Parent
+958,44,M,Budget Shopper
+959,67,NB,Gourmet
+960,41,F,Gourmet
+961,73,F,Gourmet
+962,23,NB,Impulse Buyer
+963,26,NB,Parent
+964,25,M,Impulse Buyer
+965,43,NB,Budget Shopper
+966,64,M,Health Nut
+967,66,M,Parent
+968,47,NB,Impulse Buyer
+969,45,NB,Gourmet
+970,70,M,Budget Shopper
+971,47,F,Budget Shopper
+972,35,M,Health Nut
+973,20,NB,Gourmet
+974,57,M,Budget Shopper
+975,31,M,Health Nut
+976,56,M,Gourmet
+977,56,NB,Health Nut
+978,33,NB,Health Nut
+979,43,F,Budget Shopper
+980,52,M,Health Nut
+981,26,NB,Parent
+982,32,NB,Impulse Buyer
+983,38,NB,Impulse Buyer
+984,67,NB,Parent
+985,33,F,Budget Shopper
+986,60,NB,Budget Shopper
+987,44,F,Parent
+988,21,NB,Impulse Buyer
+989,74,NB,Budget Shopper
+990,58,NB,Gourmet
+991,53,F,Health Nut
+992,40,NB,Gourmet
+993,68,NB,Parent
+994,62,F,Gourmet
+995,27,F,Gourmet
+996,29,NB,Gourmet
+997,33,M,Parent
+998,72,NB,Budget Shopper
+999,69,F,Health Nut
+1000,53,F,Gourmet
