@@ -37,6 +37,9 @@ class LLMRanker:
             # Call Gemini
             response = self.model.generate_content(prompt)
             raw_text = response.text
+
+            # DEBUG: Print exactly what Gemini sent back
+            print(f"DEBUG GEMINI RAW RESPONSE:\n{raw_text}\n----------------") 
             
             # --- FIX STARTS HERE ---
             # Correctly handle the list indexing [1] before splitting again
