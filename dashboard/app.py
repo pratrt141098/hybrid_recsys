@@ -4,8 +4,7 @@ import pandas as pd
 import plotly.express as px
 import os
 
-# Config
-# Check Streamlit secrets first, then environment variables, then fallback to localhost
+# Config: Check Streamlit Secrets -> Env Var -> Localhost
 if "API_URL" in st.secrets:
     API_URL = st.secrets["API_URL"]
 elif os.getenv("API_URL"):
@@ -17,6 +16,8 @@ st.set_page_config(page_title="Hybrid RecSys Admin", layout="wide")
 
 # Sidebar: Simulation Controls
 st.sidebar.header("User Simulation")
+st.sidebar.caption(f"Backend: {API_URL}")  # Debug info
+
 user_id = st.sidebar.number_input("Select User ID", min_value=1, max_value=1000, value=10)
 use_llm = st.sidebar.checkbox("Enable LLM Re-Ranking", value=True)
 
@@ -25,44 +26,43 @@ if st.sidebar.button("Get Recommendations"):
         try:
             payload = {"user_id": user_id, "n_candidates": 10, "use_llm": use_llm}
             response = requests.post(API_URL, json=payload)
-
-            # Debug: Print what the server actually said
-            if response.status_code != 200:
-                st.error(f"Server Error {response.status_code}: {response.text}")
-                st.stop()
-
-            try:
-                data = response.json()
-            except Exception as e:
-                st.error(f"Failed to parse JSON. Server returned: {response.text}")
-                st.stop()
             
+            # Error Handling: If non-200 response, show text
+            if response.status_code != 200:
+                st.error(f"API Error {response.status_code}: {response.text}")
+                st.stop()
+                
+            data = response.json()
+
             # --- Main Content ---
             st.title(f"Shopping Assistant for User #{user_id}")
-            
+
             # 1. User Profile Card
             if "profile" in data:
                 col1, col2 = st.columns(2)
                 with col1:
-                    st.info(f"**Persona:** {data['profile']['persona']}")
+                    st.info(f"**Persona:** {data['profile'].get('persona', 'Unknown')}")
                 with col2:
-                    st.warning(f"**Recent History:** {data['profile']['recent_views']}")
-            
+                    st.warning(f"**Recent History:** {data['profile'].get('recent_views', 'None')}")
+
             # 2. Recommendations Display
-            st.subheader(f"Recommended Items ({data['strategy']})")
+            st.subheader(f"Recommended Items ({data.get('strategy', 'Unknown Strategy')})")
             
-            recs = data['recommendations']
-            
-            if use_llm:
-                # Display as nice cards with explanations
+            recs = data.get('recommendations', [])
+
+            if use_llm and recs:
+                # Display as cards
                 for item in recs:
-                    with st.expander(f"🛒 {item.get('name', 'Product #' + str(item.get('product_id')))}", expanded=True):
+                    label = item.get('name', f"Product #{item.get('product_id')}")
+                    with st.expander(f"🛒 {label}", expanded=True):
                         st.markdown(f"_{item.get('explanation', 'No explanation provided')}_")
                         st.caption(f"Product ID: {item.get('product_id')}")
             else:
-                # Display as simple table for ALS only
-                df = pd.DataFrame(recs)
-                st.table(df)
+                # Table fallback
+                if recs:
+                    st.table(pd.DataFrame(recs))
+                else:
+                    st.warning("No recommendations returned.")
 
             # 3. Analytics (Fake/Simulated for demo)
             st.markdown("---")
@@ -72,17 +72,16 @@ if st.sidebar.button("Get Recommendations"):
             m2.metric("Conversion Prob", "24%", "+5%")
             m3.metric("Active Users", "1,240", "+12")
 
+        except requests.exceptions.ConnectionError:
+            st.error(f"Failed to connect to API at: {API_URL}")
+            st.warning("Check if the Render service is awake (it may take 50s to start).")
         except Exception as e:
-            st.error(f"Error connecting to API: {e}")
-            st.warning("Make sure the FastAPI server is running on port 8000!")
-
+            st.error(f"Unexpected Error: {e}")
 else:
     st.info("👈 Select a user and click 'Get Recommendations' to start.")
-    
+
     # Landing page stats
     st.subheader("System Overview")
-    
-    # Just some dummy chart to look professional on landing
     chart_data = pd.DataFrame({
         'Model': ['Collaborative Filtering', 'Hybrid (LLM)', 'Random'],
         'CTR': [0.12, 0.23, 0.05]
