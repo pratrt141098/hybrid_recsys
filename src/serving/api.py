@@ -80,10 +80,36 @@ def get_user_profile(user_id):
 def health_check():
     return {"status": "healthy", "model_loaded": cf_model is not None}
 
+from fastapi import FastAPI, HTTPException
+
 @app.post("/recommend")
 def recommend(req: RecommendRequest):
-    if not cf_model:
-        raise HTTPException(status_code=503, detail="Model not loaded")
+    try:
+        if not cf_model:
+            raise HTTPException(status_code=503, detail="Model not loaded")
+
+        candidate_ids = cf_model.recommend(req.user_id, n=req.n_candidates)
+        candidates = get_product_metadata(candidate_ids)
+
+        if req.use_llm and candidates:
+            user_profile = get_user_profile(req.user_id)
+            final_recs = llm_ranker.rerank(user_profile, candidates)
+            return {
+                "user_id": req.user_id,
+                "strategy": "Hybrid (ALS + Gemini)",
+                "profile": user_profile,
+                "recommendations": final_recs,
+            }
+        else:
+            return {
+                "user_id": req.user_id,
+                "strategy": "ALS Only",
+                "recommendations": candidates,
+            }
+    except Exception as e:
+        # Dev-only: expose the error so we can see it in the browser
+        raise HTTPException(status_code=500, detail=str(e))
+
 
     # 1. Fast Retrieval (ALS)
     try:

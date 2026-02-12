@@ -25,7 +25,17 @@ if st.sidebar.button("Get Recommendations"):
         try:
             payload = {"user_id": user_id, "n_candidates": 10, "use_llm": use_llm}
             response = requests.post(API_URL, json=payload)
-            data = response.json()
+
+            # Debug: Print what the server actually said
+            if response.status_code != 200:
+                st.error(f"Server Error {response.status_code}: {response.text}")
+                st.stop()
+
+            try:
+                data = response.json()
+            except Exception as e:
+                st.error(f"Failed to parse JSON. Server returned: {response.text}")
+                st.stop()
             
             # --- Main Content ---
             st.title(f"Shopping Assistant for User #{user_id}")
