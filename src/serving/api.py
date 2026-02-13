@@ -41,7 +41,7 @@ def load_resources():
     # 3. LLM Ranker
     # Ensure GEMINI_API_KEY is set in Render Environment Variables
     try:
-        llm_ranker = LLMRanker(model_name="gemini-1.5-flash")
+        llm_ranker = LLMRanker(model_name="gemini-2.5-flash")
         print("LLM Ranker initialized.")
     except Exception as e:
         print(f"Error initializing LLM Ranker: {e}")
